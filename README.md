@@ -1,11 +1,3 @@
-echo "# Learn" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SohamC11/Learn.git
-git push -u origin main
-
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -13,12 +5,12 @@ git push -u origin main
     <meta name="viewport" content="width=device-width" />
     <title>Learning to code</title>
     echo "# Learn" >> README.md
-  git init
-  git add README.md
-  git commit -m "first commit"
-  git branch -M main
-  git remote add origin https://github.com/SohamC11/Learn.git
-  git push -u origin main
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/SohamC11/Learn.git
+    git push -u origin main
   <head>
   <body>
     <h1>NASSAU 5.1.2028</h1>
