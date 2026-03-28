@@ -122,6 +122,10 @@
 
   nav a:hover { color: var(--ink); }
 
+  #dred, #freeport, #eq-ans {
+    scroll-margin-top: 52px;
+  }
+
   /* ── PAGE ── */
   .page {
     max-width: 860px;
@@ -448,7 +452,7 @@
 <header>
   <div class="hdr-label">Team E · American History Anthology</div>
   <div class="hdr-title">The <em>Road</em> to Civil War</div>
-  <div class="hdr-sub">Slavery, Law & the Fracturing of a Nation</div>
+  <div class="hdr-sub">Slavery, Law &amp; the Fracturing of a Nation</div>
   <div class="hdr-team">Soham · Ishaan · Myra</div>
 </header>
 
@@ -567,20 +571,20 @@
       <div class="q-block">
         <div class="q-text"><span class="q-num">Q1</span> What was the primary legal basis Taney used to rule against Scott?</div>
         <div class="opts" data-correct="B" data-qid="ds1">
-          <button class="opt" data-opt="A" onclick="pick(this)"><span class="opt-l">A</span>Scott voluntarily returned to Missouri, forfeiting his claim to freedom.</button>
-          <button class="opt" data-opt="B" onclick="pick(this)"><span class="opt-l">B</span>African Americans were not citizens; Congress had no authority to ban slavery in territories.</button>
-          <button class="opt" data-opt="C" onclick="pick(this)"><span class="opt-l">C</span>Illinois was not yet a full state, so its free laws did not apply.</button>
-          <button class="opt" data-opt="D" onclick="pick(this)"><span class="opt-l">D</span>The Missouri Compromise had already expired before Scott filed suit.</button>
+          <button type="button" class="opt" data-opt="A" onclick="pick(this)"><span class="opt-l">A</span>Scott voluntarily returned to Missouri, forfeiting his claim to freedom.</button>
+          <button type="button" class="opt" data-opt="B" onclick="pick(this)"><span class="opt-l">B</span>African Americans were not citizens; Congress had no authority to ban slavery in territories.</button>
+          <button type="button" class="opt" data-opt="C" onclick="pick(this)"><span class="opt-l">C</span>Illinois was not yet a full state, so its free laws did not apply.</button>
+          <button type="button" class="opt" data-opt="D" onclick="pick(this)"><span class="opt-l">D</span>The Missouri Compromise had already expired before Scott filed suit.</button>
         </div>
         <div class="fb" id="fb-ds1"></div>
       </div>
       <div class="q-block">
         <div class="q-text"><span class="q-num">Q2</span> Why did the ruling increase tensions between the North and South?</div>
         <div class="opts" data-correct="C" data-qid="ds2">
-          <button class="opt" data-opt="A" onclick="pick(this)"><span class="opt-l">A</span>It forced Southern states to emancipate enslaved people in Northern territories.</button>
-          <button class="opt" data-opt="B" onclick="pick(this)"><span class="opt-l">B</span>It gave Congress new powers to regulate slavery in all existing states.</button>
-          <button class="opt" data-opt="C" onclick="pick(this)"><span class="opt-l">C</span>It invalidated congressional limits on slavery, convincing Northerners a "Slave Power" controlled the government.</button>
-          <button class="opt" data-opt="D" onclick="pick(this)"><span class="opt-l">D</span>It required Northern states to return escaped enslaved people to their owners.</button>
+          <button type="button" class="opt" data-opt="A" onclick="pick(this)"><span class="opt-l">A</span>It forced Southern states to emancipate enslaved people in Northern territories.</button>
+          <button type="button" class="opt" data-opt="B" onclick="pick(this)"><span class="opt-l">B</span>It gave Congress new powers to regulate slavery in all existing states.</button>
+          <button type="button" class="opt" data-opt="C" onclick="pick(this)"><span class="opt-l">C</span>It invalidated congressional limits on slavery, convincing Northerners a "Slave Power" controlled the government.</button>
+          <button type="button" class="opt" data-opt="D" onclick="pick(this)"><span class="opt-l">D</span>It required Northern states to return escaped enslaved people to their owners.</button>
         </div>
         <div class="fb" id="fb-ds2"></div>
       </div>
@@ -592,7 +596,7 @@
       <p>Appleby, Joyce, et al. <em>The American Vision.</em> McGraw-Hill Education, 2018, pp. 5.1–5.4.</p>
       <p>Savvas Learning Company. <em>America: History of Our Nation.</em> Savvas/Pearson, 2022, pp. 198–200, 245–248.</p>
       <p>"Dred Scott v. Sandford." <em>Gale In Context: U.S. History,</em> Gale, 2023. Accessed 27 Mar. 2026.</p>
-      <p>Taney, Roger B. <em>Dred Scott v. Sandford,</em> 60 U.S. 393 (1857). Library of Congress, www.loc.gov. Accessed 27 Mar. 2026.</p>
+      <p>Taney, Roger&nbsp;B. <em>Dred Scott v. Sandford,</em> 60 U.S. 393 (1857). Library of Congress, www.loc.gov. Accessed 27 Mar. 2026.</p>
     </div>
 
   </section>
@@ -646,7 +650,7 @@
     </div>
 
     <!-- The Q&A -->
-    <div class="sh">The Question & The Answer</div>
+    <div class="sh">The Question &amp; The Answer</div>
     <div class="pq">
       <p>"Can the people of a United States Territory, in any lawful way… exclude slavery from its limits prior to the formation of a State Constitution?"</p>
       <cite>— Abraham Lincoln, Freeport, August 27, 1858</cite>
@@ -697,20 +701,20 @@
       <div class="q-block">
         <div class="q-text"><span class="q-num">Q1</span> What was the central argument of the Freeport Doctrine?</div>
         <div class="opts" data-correct="A" data-qid="fp1">
-          <button class="opt" data-opt="A" onclick="pick(this)"><span class="opt-l">A</span>Slavery could not survive if local governments refused to pass laws protecting it, regardless of Dred Scott.</button>
-          <button class="opt" data-opt="B" onclick="pick(this)"><span class="opt-l">B</span>Congress had sole authority to determine whether slavery could exist in the territories.</button>
-          <button class="opt" data-opt="C" onclick="pick(this)"><span class="opt-l">C</span>The Dred Scott decision made popular sovereignty illegal and unconstitutional.</button>
-          <button class="opt" data-opt="D" onclick="pick(this)"><span class="opt-l">D</span>Only slave states had the right to vote on slavery in new territories.</button>
+          <button type="button" class="opt" data-opt="A" onclick="pick(this)"><span class="opt-l">A</span>Slavery could not survive if local governments refused to pass laws protecting it, regardless of Dred Scott.</button>
+          <button type="button" class="opt" data-opt="B" onclick="pick(this)"><span class="opt-l">B</span>Congress had sole authority to determine whether slavery could exist in the territories.</button>
+          <button type="button" class="opt" data-opt="C" onclick="pick(this)"><span class="opt-l">C</span>The Dred Scott decision made popular sovereignty illegal and unconstitutional.</button>
+          <button type="button" class="opt" data-opt="D" onclick="pick(this)"><span class="opt-l">D</span>Only slave states had the right to vote on slavery in new territories.</button>
         </div>
         <div class="fb" id="fb-fp1"></div>
       </div>
       <div class="q-block">
         <div class="q-text"><span class="q-num">Q2</span> How did the Freeport Doctrine most directly contribute to Lincoln's election in 1860?</div>
         <div class="opts" data-correct="D" data-qid="fp2">
-          <button class="opt" data-opt="A" onclick="pick(this)"><span class="opt-l">A</span>It convinced Southern voters to abandon Douglas and vote for Lincoln instead.</button>
-          <button class="opt" data-opt="B" onclick="pick(this)"><span class="opt-l">B</span>It caused Douglas to withdraw from the Senate race, boosting Lincoln's profile.</button>
-          <button class="opt" data-opt="C" onclick="pick(this)"><span class="opt-l">C</span>It united the Republican and Whig parties behind a single antislavery platform.</button>
-          <button class="opt" data-opt="D" onclick="pick(this)"><span class="opt-l">D</span>It alienated Southern Democrats, splitting the party and dividing the anti-Lincoln vote.</button>
+          <button type="button" class="opt" data-opt="A" onclick="pick(this)"><span class="opt-l">A</span>It convinced Southern voters to abandon Douglas and vote for Lincoln instead.</button>
+          <button type="button" class="opt" data-opt="B" onclick="pick(this)"><span class="opt-l">B</span>It caused Douglas to withdraw from the Senate race, boosting Lincoln's profile.</button>
+          <button type="button" class="opt" data-opt="C" onclick="pick(this)"><span class="opt-l">C</span>It united the Republican and Whig parties behind a single antislavery platform.</button>
+          <button type="button" class="opt" data-opt="D" onclick="pick(this)"><span class="opt-l">D</span>It alienated Southern Democrats, splitting the party and dividing the anti-Lincoln vote.</button>
         </div>
         <div class="fb" id="fb-fp2"></div>
       </div>
@@ -784,12 +788,12 @@ function pick(btn) {
   if (chosen === correct) {
     btn.classList.remove('dim'); btn.classList.add('ok');
     scores[qid] = 1;
-    fb.innerHTML = fbText[qid][correct];
+    fb.textContent = fbText[qid][correct];
   } else {
     btn.classList.remove('dim'); btn.classList.add('bad');
     scores[qid] = 0;
     all.forEach(b => { if (b.dataset.opt === correct) { b.classList.remove('dim'); b.classList.add('ok'); } });
-    fb.innerHTML = fbText[qid]._;
+    fb.textContent = fbText[qid]._;
   }
   fb.classList.add('on');
 
